@@ -1,5 +1,5 @@
 # BabeLua_mod
-BabeLua_mod is a modified version of the open source version of BabeLua. It fixes all the bugs found in the original version and adds new features: fast startup, support VS2013-2019, support lua5.1-5.4, support remote device debugging, support x64 programs Debugging, supports mixed debugging with native code, and supports debugging memory files.
+BabeLua_mod is a modified version of the open source version of BabeLua. It fixes all the bugs found in the original version and adds new features: fast startup, support VS2013-2019, support lua5.1-5.4, support remote device debugging, support x64 programs debugging, supports mixed debugging with native code, and supports debugging memory files.
 
 ## refer to:
 https://archive.codeplex.com/?p=babelua
