@@ -8,7 +8,7 @@ https://github.com/sonyps5201314/msvcr14x
 
 https://github.com/pkulchenko/MobDebug
 
-https://github.com/microsoft/Detours
+https://github.com/Microsoft/Detours
 
 https://github.com/Microsoft/PTVS
 
