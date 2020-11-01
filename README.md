@@ -13,6 +13,8 @@ https://github.com/pkulchenko/MobDebug
 
 https://github.com/Microsoft/Detours
 
+https://github.com/sonyps5201314/SocksCapEx2
+
 https://github.com/Microsoft/PTVS
 
 https://github.com/IronyProject/Irony
