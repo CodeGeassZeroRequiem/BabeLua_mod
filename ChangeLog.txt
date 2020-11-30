@@ -1,5 +1,7 @@
-﻿2020-11-1 5.0.0.8
-1.Support prompt update
+﻿2020-11-30 5.0.0.8
+1.Support auto update
+2.Supports the asynchronous loading mechanism of VS2015 and above
+3.Fixed the problem that the project could not be saved in VS2019
 
 2020-10-30 5.0.0.6
 1.Initial public release
