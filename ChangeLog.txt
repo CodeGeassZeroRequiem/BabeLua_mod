@@ -1,4 +1,8 @@
-﻿2020-11-30 5.0.0.8
+﻿2020-12-3 5.0.0.9
+1.Fix the problem that the program cannot be debugged by starting the process on Windows 10
+2.Fix some problems that occurred due to upgrading to the previous version
+
+2020-11-30 5.0.0.8
 1.Support auto update
 2.Supports the asynchronous loading mechanism of VS2015 and above
 3.Fixed the problem that the project could not be saved in VS2019
