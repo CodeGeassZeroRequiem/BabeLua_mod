@@ -1,4 +1,8 @@
-﻿2020-12-3 5.0.0.9
+﻿2020-12-4 5.0.0.10
+1.Standardize the process of debugging the program by starting the process, so it fixes some problems caused by the irregular process
+2.Fix the problem in the previous version that may cause an error when attaching the process
+
+2020-12-3 5.0.0.9
 1.Fix the problem that the program cannot be debugged by starting the process on Windows 10
 2.Fix some problems that occurred due to upgrading to the previous version
 
