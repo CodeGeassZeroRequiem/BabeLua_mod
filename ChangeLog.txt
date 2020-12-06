@@ -1,4 +1,8 @@
-﻿2020-12-4 5.0.0.10
+﻿2020-12-6 5.0.0.11
+1.Local debugging supports interruption at the entry point, that is, it will not interrupt at the entry point when it is started by running, and it will be interrupted at the entry point when it is started by step-into and step-over
+2.Fix the problem that an error will be reported when opening the lua file in the lua project after opening Python, nodejs and other projects
+
+2020-12-4 5.0.0.10
 1.Standardize the process of debugging the program by starting the process, so it fixes some problems caused by the irregular process
 2.Fix the problem in the previous version that may cause an error when attaching the process
 
