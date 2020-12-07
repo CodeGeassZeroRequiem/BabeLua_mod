@@ -1,4 +1,8 @@
-﻿2020-12-6 5.0.0.11
+﻿2020-12-7 5.0.0.12
+1.Fix the problem that when users configure online symbol downloads in the _NT_SYMBOL_PATH or _NT_ALTERNATE_SYMBOL_PATH environment variables, the startup will be stuck for a long time
+2.Fix that the local startup debugging in the previous version may not always interrupt on the first source line of the first loaded lua source file
+
+2020-12-6 5.0.0.11
 1.Local debugging supports interruption at the entry point, that is, it will not interrupt at the entry point when it is started by running, and it will be interrupted at the entry point when it is started by step-into and step-over
 2.Fix the problem that an error will be reported when opening the lua file in the lua project after opening Python, nodejs and other projects
 
