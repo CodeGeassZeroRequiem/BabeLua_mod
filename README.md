@@ -19,4 +19,10 @@ https://github.com/Microsoft/PTVS
 
 https://github.com/IronyProject/Irony
 
+https://github.com/lua/lua
+
+https://github.com/LuaJIT/LuaJIT
+
+https://github.com/diegonehab/luasocket
+
 https://git.code.sf.net/p/wtl/git
