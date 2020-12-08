@@ -1,4 +1,8 @@
-﻿2020-12-7 5.0.0.12
+﻿2020-12-9 5.0.0.13
+1.Fix the problem that an error will be reported if mobdebug.lua is not added to the script search path in remote debugging
+2.Fix the problem that remote debugging cannot be used in older versions of cocos
+
+2020-12-7 5.0.0.12
 1.Fix the problem that when users configure online symbol downloads in the _NT_SYMBOL_PATH or _NT_ALTERNATE_SYMBOL_PATH environment variables, the startup will be stuck for a long time
 2.Fix that the local startup debugging in the previous version may not always interrupt on the first source line of the first loaded lua source file
 
