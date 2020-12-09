@@ -1,4 +1,4 @@
-﻿2020-12-9 5.0.0.14
+﻿2020-12-10 5.0.0.15
 1.Fix an issue in remote debugging that may incorrectly regard lua source code blocks as lua files
 2.Fix the problem that the original line break setting of the file may be changed when formatting the code
 3.Fix the problem that if the lua source file use '\r' as a newline character, it will cause parsing errors
