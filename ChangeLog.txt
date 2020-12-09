@@ -1,4 +1,9 @@
-﻿2020-12-9 5.0.0.13
+﻿2020-12-9 5.0.0.14
+1.Fix an issue in remote debugging that may incorrectly regard lua source code blocks as lua files
+2.Fix the problem that the original line break setting of the file may be changed when formatting the code
+3.Fix the problem that if the lua source file use '\r' as a newline character, it will cause parsing errors
+
+2020-12-9 5.0.0.13
 1.Fix the problem that an error will be reported if mobdebug.lua is not added to the script search path in remote debugging
 2.Fix the problem that remote debugging cannot be used in older versions of cocos
 
