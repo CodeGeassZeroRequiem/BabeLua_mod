@@ -1,4 +1,10 @@
-﻿2020-12-10 5.0.0.15
+﻿2020-12-12 5.0.0.16
+1.Fix the problem that local debugging cannot catch exceptions in lua5.2 and above
+2.Fix a problem that will cause the breakpoint to not hit when using the remote debugging Lua standard program
+3.Fix the problem that an error will be reported when evaluating "_G'" or "package" during remote debugging
+4.Fix a problem that may treat lua files as memory files in remote debugging
+
+2020-12-10 5.0.0.15
 1.Fix an issue in remote debugging that may incorrectly regard lua source code blocks as lua files
 2.Fix the problem that the original line break setting of the file may be changed when formatting the code
 3.Fix the problem that if the lua source file use '\r' as a newline character, it will cause parsing errors
