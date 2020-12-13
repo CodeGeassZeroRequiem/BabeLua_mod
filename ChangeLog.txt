@@ -1,4 +1,4 @@
-﻿2020-12-12 5.0.0.16
+﻿2020-12-13 5.0.0.17
 1.Fix the problem that local debugging cannot catch exceptions in lua5.2 and above
 2.Fix a problem that will cause the breakpoint to not hit when using the remote debugging Lua standard program
 3.Fix the problem that an error will be reported when evaluating "_G'" or "package" during remote debugging
