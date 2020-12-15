@@ -1,4 +1,9 @@
-﻿2020-12-14 5.0.0.18
+﻿2020-12-16 5.0.0.19
+1.Fix another issue that will cause an error when evaluating "_G" or "package" during remote debugging
+2.Fixed the problem that the preloaded lua file will not be displayed in the debug output window when using local attach debugging
+3.Fix the problem that exception catching in Lua engine compiled with __stdcall will disrupt the call stack balance
+
+2020-12-14 5.0.0.18
 1.Fix the problem that VS will freeze when opening and debugging another project after debugging a project when remote debugging is turned on
 
 2020-12-13 5.0.0.17
