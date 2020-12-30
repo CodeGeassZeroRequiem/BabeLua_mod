@@ -1,4 +1,10 @@
-﻿2020-12-22 5.0.0.20
+﻿2020-12-31 5.0.0.22
+1.Fix an issue where memory files will be regarded as real files
+2.Fix a problem that may cause the real full path of the file cannot be found
+3.Fix the issue that MSVCR14X.dll cannot be found on Win7
+4.Authorization extension for six months
+
+2020-12-22 5.0.0.20
 1.Fix the problem that if the file directory structure layout of the remote device is different from that of the local project, it may cause abnormal debugging
 2.Fix the problem that the evaluation of variable parameters "..." is not supported in lua5.4
 
