@@ -1,4 +1,10 @@
-﻿2020-12-31 5.0.0.22
+﻿2021-1-1 5.0.0.26
+1.Fix the issue that will cause VS2015 to start stuck
+2.Fix the problem that if the first breakpoint is set on the first valid line of code in the file, and then use Step, it will not be able to break on the next line
+3.Fix a problem that will cause an error when creating a project
+4.Fix the problem that an error will be reported if the PE image file of the module where the lua engine is located has no time stamp
+
+2020-12-31 5.0.0.22
 1.Fix an issue where memory files will be regarded as real files
 2.Fix a problem that may cause the real full path of the file cannot be found
 3.Fix the issue that MSVCR14X.dll cannot be found on Win7
