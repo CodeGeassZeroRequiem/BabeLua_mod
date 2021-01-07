@@ -1,4 +1,12 @@
-﻿2021-1-1 5.0.0.26
+﻿2021-1-8 5.0.0.31
+1.When loading native code symbols is checked, the evaluation expression supports displaying C function information
+2.Fix the problem of not supporting skynet
+3.Fix a problem that will treat real files as memory files
+4.Fix a problem that may cause VS to alarm when unattached in local debugging
+5.Fix a problem that will cause an error when local debugging is unattached
+6.Automatic update improvement and other c# code improvements and fixes
+
+2021-1-1 5.0.0.26
 1.Fix the issue that will cause VS2015 to start stuck
 2.Fix the problem that if the first breakpoint is set on the first valid line of code in the file, and then use Step, it will not be able to break on the next line
 3.Fix a problem that will cause an error when creating a project
