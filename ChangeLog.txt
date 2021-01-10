@@ -1,4 +1,10 @@
-﻿2021-1-8 5.0.0.31
+﻿2021-1-11 5.0.0.35
+1.Fix the problem that the debugged program may crash when pdb does not match
+2.Fix the problem that incompatibility warning will be reported when installing to VS2017 and above
+3.Fix the problem that the modification of the previous version is not fully compatible with the lua engine compiled by __stdcall
+4.Fix the problem that an error will be reported when clicking the "Goto symbol" menu button without opening the Lua project
+
+2021-1-8 5.0.0.31
 1.When loading native code symbols is checked, the evaluation expression supports displaying C function information
 2.Fix the problem of not supporting skynet
 3.Fix a problem that will treat real files as memory files
