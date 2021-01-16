@@ -25,4 +25,6 @@ https://github.com/LuaJIT/LuaJIT
 
 https://github.com/diegonehab/luasocket
 
+https://github.com/madler/zlib
+
 https://git.code.sf.net/p/wtl/git
