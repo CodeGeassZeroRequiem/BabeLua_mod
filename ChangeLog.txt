@@ -1,4 +1,8 @@
-﻿2021-1-11 5.0.0.35
+﻿2021-1-18 5.0.0.36
+1.Supports the function of automatically downloading updates and enabling specified API files based on user selections
+2.Fix that if you have never run VS as an administrator after installing this plug-in, you will not be able to use the Lua keyword auto-completion function
+
+2021-1-11 5.0.0.35
 1.Fix the problem that the debugged program may crash when pdb does not match
 2.Fix the problem that incompatibility warning will be reported when installing to VS2017 and above
 3.Fix the problem that the modification of the previous version is not fully compatible with the lua engine compiled by __stdcall
