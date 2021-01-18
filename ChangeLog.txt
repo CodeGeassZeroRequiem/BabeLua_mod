@@ -1,4 +1,8 @@
-﻿2021-1-18 5.0.0.36
+﻿2021-1-19 5.0.0.39
+1.Fix the problem that any Lua files in the memory cannot be opened after attach debugging when the current solution does not contain any Lua projects
+2.Fix the problem that VS will report an exception when the current solution does not contain any Lua project, and does not open any Lua source file, and attach-debug to a process containing Lua memory files
+
+2021-1-18 5.0.0.36
 1.Supports the function of automatically downloading updates and enabling specified API files based on user selections
 2.Fix that if you have never run VS as an administrator after installing this plug-in, you will not be able to use the Lua keyword auto-completion function
 
