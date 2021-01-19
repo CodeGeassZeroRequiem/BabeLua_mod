@@ -1,4 +1,11 @@
-﻿2021-1-19 5.0.0.39
+﻿2021-1-19 5.0.0.40
+1.Fixed an issue that caused VS to freeze when the debugged process crashed when it was started or attached
+2.Fix the problem that after the program has loaded a version of the debugging back-end DLL, attaching and debugging to another version will cause a crash
+3.Fix the problem that VS will report an error suggesting to close when the 64-bit process fails to be injected
+4.Fix the problem that the program will be stuck in a dead state if the VS crashes in the interrupted debugging state such as hitting the breakpoint
+5.Fix the problem that the VS started by the administrator cannot be attached to the lua program started by the ordinary account
+
+2021-1-19 5.0.0.39
 1.Fix the problem that any Lua files in the memory cannot be opened after attach debugging when the current solution does not contain any Lua projects
 2.Fix the problem that VS will report an exception when the current solution does not contain any Lua project, and does not open any Lua source file, and attach-debug to a process containing Lua memory files
 
