@@ -1,4 +1,10 @@
-﻿2021-1-19 5.0.0.40
+﻿2021-1-20 5.0.0.42
+1.Supports script reload notification so it better supports Lua debugging in Unity
+2.Fix the problem that the button in the auto-complete menu does not support deselection
+3.Fix a thread safety issue introduced in the previous version that may cause VS to crash
+4.Fix the problem that the progress bar will not update when downloading and updating in recent versions
+
+2021-1-19 5.0.0.40
 1.Fixed an issue that caused VS to freeze when the debugged process crashed when it was started or attached
 2.Fix the problem that after the program has loaded a version of the debugging back-end DLL, attaching and debugging to another version will cause a crash
 3.Fix the problem that VS will report an error suggesting to close when the 64-bit process fails to be injected
