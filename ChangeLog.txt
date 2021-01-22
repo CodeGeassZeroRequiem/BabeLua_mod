@@ -1,4 +1,9 @@
-﻿2021-1-21 5.0.0.43
+﻿2021-1-22 5.0.0.44
+1.Fix a problem that will cause the process to fail to attach
+2.Fixed an issue where script loading triggered in the evaluation expression would cause infinite freezes
+3.Fix the problem that the previous version will not be able to resend the loading notification of some script files that have been loaded when attaching again
+
+2021-1-21 5.0.0.43
 1.As long as the script file is reloaded, a reload notification will be sent regardless of the content change
 2.Fix an issue that may cause a script reload notification to be sent incorrectly after a script load notification is sent
 3.Fixed an issue where unattached and attached again in local debugging may cause the loaded memory file to fail to resend the loading notification
