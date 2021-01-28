@@ -1,4 +1,10 @@
-﻿2021-1-28 5.0.0.46
+﻿2021-1-29 5.0.0.48
+1.Fix the problem that the last two output results of the last debugging will be displayed in the output window of the new debugging session after restarting debugging
+2.Fix a problem that may cause stack memory confusion
+3.Fix the problem that the attached process cannot be suspended
+4.Fix the problem that if new files are loaded after unattaching, an error will be reported and these files cannot be recorded
+
+2021-1-28 5.0.0.46
 1.C# code specification thread safety: necessary requests are posted to the UI thread for execution, so an old bug is fixed: when debugging, when the children of the evaluation expression are expanded in the pop-up prompt window, the mouse scrolling too fast will cause VS Crash; and code editing is smoother, etc
 2.Fix the problem that may report an error when attaching in the previous version and cause the balance of the lua stack to be damaged
 3.Fix the problem of high CPU usage when not entering the VS main window interface in VS2019
