@@ -1,4 +1,10 @@
-﻿2021-1-29 5.0.0.48
+﻿2021-1-30 5.0.0.51
+1.Fix the problem that the address information of some built-in C library functions cannot be obtained in LuaJIT
+2.Fix the problem that may cause some debugging output messages to be missed at the end
+3.Improve the error message when the capture fails
+4.Fix the issue that setting Info multi-line messages may be displayed separately
+
+2021-1-29 5.0.0.48
 1.Fix the problem that the last two output results of the last debugging will be displayed in the output window of the new debugging session after restarting debugging
 2.Fix a problem that may cause stack memory confusion
 3.Fix the problem that the attached process cannot be suspended
