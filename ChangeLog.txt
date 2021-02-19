@@ -1,4 +1,9 @@
-﻿2021-1-30 5.0.0.51
+﻿2021-2-20 5.0.0.55
+1.Fixed the issue that all processes in the attachable process list will be marked as Lua processes
+2.All displayed message texts are translated into English
+3.Fixed the issue that the VS main window was not reactivated when the API file download was completed
+
+2021-1-30 5.0.0.51
 1.Fix the problem that the address information of some built-in C library functions cannot be obtained in LuaJIT
 2.Fix the problem that may cause some debugging output messages to be missed at the end
 3.Improve the error message when the capture fails
