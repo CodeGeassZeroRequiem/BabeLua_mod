@@ -1,4 +1,9 @@
-﻿2021-2-20 5.0.0.55
+﻿2021-2-21 5.0.0.57
+1.Support recording the unload event of Lua modules, so it also fixes some memory leaks related to hook functions
+2.Fix the issue that was introduced in the previous version, even if Lua debugging is checked when attaching, Lua debugging cannot be enabled if the Lua module has not been loaded
+3.Identify efficiency improvements in Lua processes
+
+2021-2-20 5.0.0.55
 1.Fixed the issue that all processes in the attachable process list will be marked as Lua processes
 2.All displayed message texts are translated into English
 3.Fixed the issue that the VS main window was not reactivated when the API file download was completed
