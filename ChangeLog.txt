@@ -1,4 +1,8 @@
-﻿2021-2-21 5.0.0.57
+﻿2021-2-23 5.0.0.60
+1.If a program contains multiple Lua modules, they are also supported for debugging
+2.Fix the issue that package.path will only be displayed for the first virtual machine
+
+2021-2-21 5.0.0.57
 1.Support recording the unload event of Lua modules, so it also fixes some memory leaks related to hook functions
 2.Fix the issue that was introduced in the previous version, even if Lua debugging is checked when attaching, Lua debugging cannot be enabled if the Lua module has not been loaded
 3.Identify efficiency improvements in Lua processes
