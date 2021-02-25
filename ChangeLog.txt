@@ -1,4 +1,7 @@
-﻿2021-2-23 5.0.0.60
+﻿2021-2-25 5.0.0.61
+1.Fixed an issue in recent versions that caused the debugged process to crash when exiting
+
+2021-2-23 5.0.0.60
 1.If a program contains multiple Lua modules, they are also supported for debugging
 2.Fix the issue that package.path will only be displayed for the first virtual machine
 
