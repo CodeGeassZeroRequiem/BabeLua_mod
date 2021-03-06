@@ -1,4 +1,9 @@
-﻿2021-2-25 5.0.0.61
+﻿2021-3-7 5.0.0.62
+1.Fix the problem that if remote debugging is turned on and then a process is started to debug locally, the remote debugging cannot be turned on again without closing the process
+2.Fix an issue that would cause breakpoints to fail to hit during remote debugging
+3.Use cache optimization to reduce the time to open the dialog box attached to the process for the first time
+
+2021-2-25 5.0.0.61
 1.Fixed an issue in recent versions that caused the debugged process to crash when exiting
 
 2021-2-23 5.0.0.60
