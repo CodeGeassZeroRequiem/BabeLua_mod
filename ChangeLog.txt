@@ -1,4 +1,11 @@
-﻿2021-3-8 5.0.0.63
+﻿2021-3-19 5.0.0.72
+1.Support the display of member fields of user types in cocos, xlua, and tolua when evaluating expressions 【this feature is currently in preview release state】
+2.Fixed an issue that caused a long wait when excluding folders
+3.Fix a deadlock issue that may occur on Win10
+4.Fixed the problem that some button icons in the search results window would not be displayed
+5.Lua interface capture information now supports display the module architecture name
+
+2021-3-8 5.0.0.63
 1.Fix the problem that the evaluation expression does not support displaying the entries in the environment table during local debugging
 
 2021-3-7 5.0.0.62
