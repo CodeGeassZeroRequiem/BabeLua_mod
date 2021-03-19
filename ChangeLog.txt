@@ -1,4 +1,7 @@
-﻿2021-3-19 5.0.0.72
+﻿2021-3-20 5.0.0.73
+1.In the debug windows, variables of string type support the display of escape characters and can be displayed in a pop-up dialog box. Variables of function type are now displayed with a dedicated icon
+
+2021-3-19 5.0.0.72
 1.Support the display of member fields of user types in cocos, xlua, and tolua when evaluating expressions 【this feature is currently in preview release state】
 2.Fixed an issue that caused a long wait when excluding folders
 3.Fix a deadlock issue that may occur on Win10
