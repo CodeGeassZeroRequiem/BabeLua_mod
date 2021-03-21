@@ -1,5 +1,10 @@
-﻿2021-3-20 5.0.0.73
+﻿2021-3-21 5.0.0.76
 1.In the debug windows, variables of string type support the display of escape characters and can be displayed in a pop-up dialog box. Variables of function type are now displayed with a dedicated icon
+2.Fix an error in the remote debugging of the display user type added in the previous version
+3.Fix the problem that if the pause button is pressed while loading the script in remote debugging, an error will be reported
+4.Fix the problem that if the searched string is at the end of the specified line in the search results window, the string cannot be highlighted by double-clicking
+5.Optimize the cache hit mechanism
+6.The doh address is changed to solve the problem that domestic users cannot check for updates
 
 2021-3-19 5.0.0.72
 1.Support the display of member fields of user types in cocos, xlua, and tolua when evaluating expressions 【this feature is currently in preview release state】
