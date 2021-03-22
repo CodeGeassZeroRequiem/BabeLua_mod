@@ -1,4 +1,9 @@
-﻿2021-3-22 5.0.0.82
+﻿2021-3-23 5.0.0.83
+1.Fix the problem of not supporting modification of variable value during remote debugging
+2.Support pop-up display error message when the modified variable value fails
+3.Fixed an issue in remote debugging that would cause VS to freeze indefinitely when evaluating expressions
+
+2021-3-22 5.0.0.82
 1.Fix the problem that the function of displaying the members and fields of the user types does not take effect during remote debugging
 2.Fix an error in the evaluation expression
 3.Fix a problem that will cause occasional deadlock
