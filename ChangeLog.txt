@@ -1,4 +1,10 @@
-﻿2021-3-21 5.0.0.76
+﻿2021-3-22 5.0.0.82
+1.Fix the problem that the function of displaying the members and fields of the user types does not take effect during remote debugging
+2.Fix an error in the evaluation expression
+3.Fix a problem that will cause occasional deadlock
+4.Streamline the code
+
+2021-3-21 5.0.0.76
 1.In the debug windows, variables of string type support the display of escape characters and can be displayed in a pop-up dialog box. Variables of function type are now displayed with a dedicated icon
 2.Fix an error in the remote debugging of the display user type added in the previous version
 3.Fix the problem that if the pause button is pressed while loading the script in remote debugging, an error will be reported
