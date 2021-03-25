@@ -1,4 +1,13 @@
-﻿2021-3-23 5.0.0.83
+﻿2021-3-25 5.0.0.86
+1.Fix the issue that some hooked system API functions did not handle LastError
+2.Fix the problem that the members and fields of the user type displayed in xLua do not take effect during remote debugging
+3.Fix a problem that would cause the breakpoint to not be hit
+4.Fix the problem that an error will be reported when the breakpoint is hit after the breakpoint is deleted in the non-breakpoint break state in xLua during remote debugging
+5.Fix the problem that the 64-bit integer type number value in the lua engine (including luajit) of lua5.2 and below will be displayed as a floating point number represented by inaccurate scientific notation
+6.A performance warning was also issued when trying to synchronize the project root directory
+7.Change the doh server, because it was found that the previous doh returned "503 Service Unavailable"
+
+2021-3-23 5.0.0.83
 1.Fix the problem of not supporting modification of variable value during remote debugging
 2.Support pop-up display error message when the modified variable value fails
 3.Fixed an issue in remote debugging that would cause VS to freeze indefinitely when evaluating expressions
