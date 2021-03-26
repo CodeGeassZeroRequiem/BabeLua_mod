@@ -1,4 +1,7 @@
-﻿2021-3-25 5.0.0.86
+﻿2021-3-26 5.0.0.88
+1.Recognize table, userdata and other user types whose names are overloaded by users as classes, and display them with special icons
+
+2021-3-25 5.0.0.86
 1.Fix the issue that some hooked system API functions did not handle LastError
 2.Fix the problem that the members and fields of the user type displayed in xLua do not take effect during remote debugging
 3.Fix a problem that would cause the breakpoint to not be hit
