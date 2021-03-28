@@ -1,4 +1,8 @@
-﻿2021-3-26 5.0.0.88
+﻿2021-3-28 5.0.0.89
+1.Support to expand the base class members of user types in xlua and tolua when evaluating expressions
+2.Fix the problem that the writable attributes of members in the subset of evaluation expressions are not set
+
+2021-3-26 5.0.0.88
 1.Recognize table, userdata and other user types whose names are overloaded by users as classes, and display them with special icons
 
 2021-3-25 5.0.0.86
