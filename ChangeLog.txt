@@ -1,4 +1,8 @@
-﻿2021-3-28 5.0.0.89
+﻿2021-3-29 5.0.0.90
+1.Fix the problem that the items in the attribute group do not support expansion when evaluating expressions
+2.Fix a problem that may cause the completion of the traversal modules
+
+2021-3-28 5.0.0.89
 1.Support to expand the base class members of user types in xlua and tolua when evaluating expressions
 2.Fix the problem that the writable attributes of members in the subset of evaluation expressions are not set
 
