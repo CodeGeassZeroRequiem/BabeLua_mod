@@ -1,4 +1,10 @@
-﻿2021-3-29 5.0.0.90
+﻿2021-3-30 5.0.0.91
+1.Fix the problem that after the local debugger is unattached, it cannot be attached by the remote debugger, etc.
+2.Fix the issue that the alarm no longer alarms when the lua symbol is not found in the module that looks like the lua engine
+3.64-bit integer printing support in print redirection during remote debugging
+4.When the number type cannot be converted to an integer, use tostring to print directly to match the format in print as much as possible
+
+2021-3-29 5.0.0.90
 1.Fix the problem that the items in the attribute group do not support expansion when evaluating expressions
 2.Fix a problem that may cause the completion of the traversal modules
 
