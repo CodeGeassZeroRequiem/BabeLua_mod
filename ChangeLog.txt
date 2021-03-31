@@ -1,4 +1,7 @@
-﻿2021-3-30 5.0.0.91
+﻿2021-3-31 5.0.0.92
+1.Fix an assertion error in remote debugging
+
+2021-3-30 5.0.0.91
 1.Fix the problem that after the local debugger is unattached, it cannot be attached by the remote debugger, etc.
 2.Fix the issue that the alarm no longer alarms when the lua symbol is not found in the module that looks like the lua engine
 3.64-bit integer printing support in print redirection during remote debugging
