@@ -1,4 +1,7 @@
-﻿2021-3-31 5.0.0.92
+﻿2021-4-1 5.0.0.93
+1.Support the display of member fields of user types in cocos, xlua, and tolua when evaluating expressions 【this feature is currently in official release status】
+
+2021-3-31 5.0.0.92
 1.Fix an assertion error in remote debugging
 
 2021-3-30 5.0.0.91
