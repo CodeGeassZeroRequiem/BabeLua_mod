@@ -1,5 +1,9 @@
-﻿2021-4-4 5.0.0.95
-1.Fix the problem that some tables cannot be evaluated because the key string is not an identifier without parentheses.
+﻿2021-4-5 5.0.0.98
+1.Fix the problem that assigning a custom file extension to the Lua editor does not take effect
+2.Fix the problem that the color of keywords cannot be customized
+
+2021-4-4 5.0.0.95
+1.Fix the problem that some tables cannot be evaluated because the key string is not an identifier without parentheses
 2.Fix the problem that the table cannot be evaluated when the keys in the tables contain characters that need to be escaped
 
 2021-4-3 5.0.0.94
