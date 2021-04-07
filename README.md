@@ -27,4 +27,4 @@ https://github.com/diegonehab/luasocket
 
 https://github.com/madler/zlib
 
-https://git.code.sf.net/p/wtl/git
+https://sourceforge.net/projects/wtl
