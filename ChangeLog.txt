@@ -1,4 +1,9 @@
-﻿2021-4-5 5.0.0.98
+﻿2021-4-9 5.0.0.101
+1.Supports detection and setting of text encoding attributes for display and print output
+2.Fix the problem that the key name of the attribute group appearing in the recent version will be added with brackets and quotation marks again
+3.Fixed an issue that caused exceptions to be reported when print redirection was enabled in remote debugging
+
+2021-4-5 5.0.0.98
 1.Fix the problem that assigning a custom file extension to the Lua editor does not take effect
 2.Fix the problem that the color of keywords cannot be customized
 
