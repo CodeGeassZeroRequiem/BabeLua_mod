@@ -1,4 +1,8 @@
-﻿2021-4-9 5.0.0.101
+﻿2021-4-10 5.0.0.102
+1.Fix the problem that VS will freeze when remote debugging requests to stop the debugging command when the program is in a non-interrupted state
+2.Fix the problem that the configuration settings of loading local symbols are not reloaded when reattaching
+
+2021-4-9 5.0.0.101
 1.Supports detection and setting of text encoding attributes for display and print output
 2.Fix the problem that the key name of the attribute group appearing in the recent version will be added with brackets and quotation marks again
 3.Fixed an issue that caused exceptions to be reported when print redirection was enabled in remote debugging
