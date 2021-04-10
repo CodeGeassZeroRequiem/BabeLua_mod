@@ -1,4 +1,8 @@
-﻿2021-4-10 5.0.0.102
+﻿2021-4-11 5.0.0.104
+1.Fix the problem that the project template would not be put into the classification of the lua language in VS2019
+2.Fix the problem that the file type in the dialog box of creating a new lua file will be displayed as Lua Editor
+
+2021-4-10 5.0.0.102
 1.Fix the problem that VS will freeze when remote debugging requests to stop the debugging command when the program is in a non-interrupted state
 2.Fix the problem that the configuration settings of loading local symbols are not reloaded when reattaching
 
