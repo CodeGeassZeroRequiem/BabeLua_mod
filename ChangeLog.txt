@@ -1,4 +1,8 @@
-﻿2021-4-11 5.0.0.104
+﻿2021-4-12 5.0.0.105
+1.Fix the problem that the breakpoint in the loaded file will be bound repeatedly if it is disabled and then enabled
+2.Change to bind the breakpoints after loading the script
+
+2021-4-11 5.0.0.104
 1.Fix the problem that the project template would not be put into the classification of the lua language in VS2019
 2.Fix the problem that the file type in the dialog box of creating a new lua file will be displayed as Lua Editor
 
