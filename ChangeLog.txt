@@ -1,4 +1,8 @@
-﻿2021-4-12 5.0.0.105
+﻿2021-4-13 5.0.0.106
+1.Fix the problem that users may set breakpoints on blank lines, comment lines and other lines of code that will not be executed
+2.Fix a problem that may cause the startup to freeze
+
+2021-4-12 5.0.0.105
 1.Fix the problem that the breakpoint in the loaded file will be bound repeatedly if it is disabled and then enabled
 2.Change to bind the breakpoints after loading the script
 
